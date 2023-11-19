@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="721.0" prefWidth="912.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.StudentManage.Controller.StudentFormController">
+<AnchorPane prefHeight="721.0" prefWidth="912.0" style="-fx-background-color: #c7ecee;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.StudentManage.Controller.StudentFormController">
    <children>
       <Label layoutX="202.0" layoutY="32.0" text="Manage Student Form">
          <font>
@@ -30,8 +30,8 @@
       <Button layoutX="720.0" layoutY="127.0" mnemonicParsing="false" onAction="#btnAddStudent" prefHeight="31.0" prefWidth="87.0" text="ADD" />
       <Button layoutX="717.0" layoutY="177.0" mnemonicParsing="false" onAction="#btnSearchStudent" prefHeight="31.0" prefWidth="94.0" text="Search" />
       <Button layoutX="720.0" layoutY="235.0" mnemonicParsing="false" onAction="#btnUpdateStudent" prefHeight="31.0" prefWidth="87.0" text="Update" />
-      <Button layoutX="710.0" layoutY="296.0" mnemonicParsing="false" onAction="#btnDeleteStudent" prefHeight="31.0" prefWidth="94.0" text="Delete" />
-      <Button fx:id="CancelButton" layoutX="710.0" layoutY="370.0" mnemonicParsing="false" onAction="#btnCancel" prefHeight="31.0" prefWidth="87.0" text="Cancel" />
+      <Button layoutX="717.0" layoutY="285.0" mnemonicParsing="false" onAction="#btnDeleteStudent" prefHeight="31.0" prefWidth="94.0" text="Delete" />
+      <Button fx:id="CancelButton" layoutX="720.0" layoutY="334.0" mnemonicParsing="false" onAction="#btnCancel" prefHeight="31.0" prefWidth="87.0" text="Cancel" />
       <TableView fx:id="tabletAll" layoutX="50.0" layoutY="462.0" prefHeight="220.0" prefWidth="807.0">
         <columns>
           <TableColumn prefWidth="112.0" text="StudentID" />
